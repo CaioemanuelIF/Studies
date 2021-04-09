@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/main.css"
+
+  <meta charset="utf-8">
+  
+  <title>Teste</title>
+  <meta name="description" content="My Page Description">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollpath"></div>
+    <section>
+      <h2>Creative Scroll Progress Bar</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non sapien a nisi euismod congue. 
+        Nunc malesuada ex eget odio commodo, ut vehicula ex accumsan. 
+        Curabitur ligula purus, consectetur ut metus vel, mattis venenatis tortor. 
+        Donec et velit libero. 
+        Cras vitae lacinia ligula. Cras at augue eros. 
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+        Aliquam sit amet lacus eros. 
+        Vivamus vehicula velit et felis bibendum mollis. 
+        Pellentesque a dui at ante lacinia sagittis. 
+        In lectus quam, cursus a purus sed, elementum viverra purus. 
+        Phasellus ultrices nisi at aliquet dictum. Duis lobortis nisi nisl, ultrices tincidunt lorem condimentum non. 
+        Pellentesque ut nunc pretium eros commodo rhoncus. 
+        Donec erat nulla, iaculis ut urna eget, convallis rhoncus massa. 
+        Vivamus aliquam volutpat eros sed iaculis.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non sapien a nisi euismod congue. 
+        Nunc malesuada ex eget odio commodo, ut vehicula ex accumsan. 
+        Curabitur ligula purus, consectetur ut metus vel, mattis venenatis tortor. 
+        Donec et velit libero. 
+        Cras vitae lacinia ligula. Cras at augue eros. 
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+        Aliquam sit amet lacus eros. 
+        Vivamus vehicula velit et felis bibendum mollis. 
+        Pellentesque a dui at ante lacinia sagittis. 
+        In lectus quam, cursus a purus sed, elementum viverra purus. 
+        Phasellus ultrices nisi at aliquet dictum. Duis lobortis nisi nisl, ultrices tincidunt lorem condimentum non. 
+        Pellentesque ut nunc pretium eros commodo rhoncus. 
+        Donec erat nulla, iaculis ut urna eget, convallis rhoncus massa. 
+        Vivamus aliquam volutpat eros sed iaculis.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non sapien a nisi euismod congue. 
+        Nunc malesuada ex eget odio commodo, ut vehicula ex accumsan. 
+        Curabitur ligula purus, consectetur ut metus vel, mattis venenatis tortor. 
+        Donec et velit libero. 
+        Cras vitae lacinia ligula. Cras at augue eros. 
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+        Aliquam sit amet lacus eros. 
+        Vivamus vehicula velit et felis bibendum mollis. 
+        Pellentesque a dui at ante lacinia sagittis. 
+        In lectus quam, cursus a purus sed, elementum viverra purus. 
+        Phasellus ultrices nisi at aliquet dictum. Duis lobortis nisi nisl, ultrices tincidunt lorem condimentum non. 
+        Pellentesque ut nunc pretium eros commodo rhoncus. 
+        Donec erat nulla, iaculis ut urna eget, convallis rhoncus massa. 
+        Vivamus aliquam volutpat eros sed iaculis.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non sapien a nisi euismod congue. 
+        Nunc malesuada ex eget odio commodo, ut vehicula ex accumsan. 
+        Curabitur ligula purus, consectetur ut metus vel, mattis venenatis tortor. 
+        Donec et velit libero. 
+        Cras vitae lacinia ligula. Cras at augue eros. 
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+        Aliquam sit amet lacus eros. 
+        Vivamus vehicula velit et felis bibendum mollis. 
+        Pellentesque a dui at ante lacinia sagittis. 
+        In lectus quam, cursus a purus sed, elementum viverra purus. 
+        Phasellus ultrices nisi at aliquet dictum. Duis lobortis nisi nisl, ultrices tincidunt lorem condimentum non. 
+        Pellentesque ut nunc pretium eros commodo rhoncus. 
+        Donec erat nulla, iaculis ut urna eget, convallis rhoncus massa. 
+        Vivamus aliquam volutpat eros sed iaculis.</p>
+    </section>
+    <script type="text/javascript">
+    let progress = document.getElementById('progressbar')
+    let totalheight = document.body.scrollHeight-
+      window.innerheight;
+    window.onscroll = function(){
+      let progressheight = (window.pageYOffset/ totalheight)*100;
+      progress.style.height = progressheight+"%";
+    }
+    </script>
+</html>
