@@ -15,25 +15,42 @@
             <div class="title" > Calculadora IMC</div>
             <div class="input" id="nome">
                 <label>Nome:</label>
-                <input type="text" id="nome-input">
+                <input type="text" autocomplete="on" text="Nome" placeholder="Digite seu nome" maxlength="200" id="nome-input">
             </div>
   
             <div class="input" id="idade">
                 <label>Idade:</label>
-                <input type="number" id="idade-input">
+                <input type="text" autocomplete="off" text="Idade" placeholder="20" maxlength="200" id="idade-input">
+                <div class="caption">anos</div>
             </div>
             <div class="input" id="peso">
                 <label>Peso:</label>
-                <input type="number" id="peso-input">
+                
+                <input type="text" autocomplete="off" text="Peso" placeholder="50,0" maxlength="200" id="peso-input">
+                <div class="caption">kg</div>
             </div>
             <div class="input" id="altura">
                 <label>Altura:</label>
-                <input type="number" id="altura-input">
+                
+                <input type="text" autocomplete="off" text="Altura" placeholder="1,70" maxlength="200" id="altura-input">
+                <div class="caption">cm</div>
             </div>          
             <div class="input" id="sexo">
                 <label>Sexo:</label>
-                <input type="button" value="Masculino" id="btn-input">
-                <input type="button" value="Feminino" id="btn-input">
+                <div class="radio">
+                    <input type="radio" value="Masculino" data-name="gender" name="gender" value="M" class="toggle" checked>
+                    <label for="gender_M" class="btn">
+                        Homem
+                    </label>
+                </div>
+                <div class="radio">
+                    <input type="radio" value="Feminino" data-name="gender" name="gender" value="F" class="toggle">
+                    <label for="gender_F" class="btn">
+                        Mulher
+                    </label>
+                </div>
+  
+                
             </div>
             <button id="calcular">Calcular</button>
             <div class="result" id="resultado"></div>
